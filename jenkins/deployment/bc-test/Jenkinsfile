@@ -1,7 +1,7 @@
 def PIPELINE_NAME = "deployment/bc-test"
 
-def LIB_NAME= "orgbook-lib"
-def LIB_REPO = "https://github.com/bcgov/orgbook-configurations.git"
+def LIB_NAME= "coast-lib"
+def LIB_REPO = "https://github.com/bcgov/coast-configurations.git"
 def LIB_BRANCH = "master"
 library identifier: "${LIB_NAME}@${LIB_BRANCH}", 
         retriever: modernSCM(
